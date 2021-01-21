@@ -1,0 +1,101 @@
+#principal{
+    background-image: url('../imagens/pizzaria-hero-fundo03.jpg');
+    color: white;
+    margin-bottom: 200px;
+    padding: 250px;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: 50px;
+    filter: brightness(64%);
+}
+
+#principal h1{
+    font-size: 75pt;
+    margin-left: -120px;
+    margin-top: -25px;
+}
+
+#principal img{
+    margin-left: -90px;
+    margin-top: -40px;
+}
+
+#cardapio h2{
+    font-size: 55pt;
+    color: rgb(216, 123, 2);
+    margin-left: 25px;
+}
+
+nav a{
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(216, 123, 2);
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    color: black;
+}
+
+.price{
+    color: rgb(216, 123, 2);
+    font-size: 25pt;
+    font: bold;
+}
+
+.nome-comida{
+    font-size: 25pt;
+}
+
+footer{
+    width: 1349px;
+}
+
+footer a{
+    color: rgb(216, 123, 2);
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: rgb(163, 94, 3);
+}
+
+@media(max-width:700px){
+    #principal{
+        margin-top: -100px;
+    }
+
+    #principal img{
+        width: 250px;
+
+    }
+
+    .ima{
+        width: 450px;
+    }
+
+    footer{
+        width: 500px;
+    }
+
+    #rodape-personalizado img{
+        width: 500px;
+        height: 550px;
+        margin: none;
+    }
+    
+    #rodape-personalizado h2{
+        margin-left: 2px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    #rodape-personalizado p{
+        margin-left: 2px;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+}

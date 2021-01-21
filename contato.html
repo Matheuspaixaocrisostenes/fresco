@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style/contato.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="imagens/fresco-logo-pequeno.png" alt="fresco"></a> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="quem-somos.html">Quem somos</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contato.html" id="contact">Contato</a>
+        </nav>
+    </header>
+    <div class="divisor"></div>
+
+    <div id="principal">
+        <h1>Reserve uma messa</h1>
+        <p>3004-8660</p>
+        <img src="imagens/barra-horizontal.png" alt="barra">
+    </div>
+    <div class="divisor"></div>
+
+    <div id="contato">
+        <h2>Entre em contato</h2>
+        <p id="pri">Envie sua mensagem, preenchendo o formulário abaixo</p>
+       <form> 
+            <p><label for="cNome">Nome:</label>  <input type="text" name="tNome" id="cNome" size="150" maxlength="30" placeholder="Nome Completo" class="info"></p> 
+            <p><em>Informe seu nome completo, para podermos saber quem é você</em></p>
+            <p><label for="cMail">E-mail:</label> <input type="email" name="tMail" id="cMail" size="68" maxlength="40" class="info"> <label for="cTel">Telefone</label> <input type="text" name="tTel" id="cTel" size="68" class="info"></p> 
+            <p><strong>Qual a unidade que você quer falar</strong> 
+                <select name="tSel" id="cSel">
+                <optgroup>
+                <option value="0">escolha uma unidade</option>
+                <option value="1">copacabana</option>
+                <option value="2">lebon</option>
+                <option value="3">bangu</option>
+            </optgroup>
+        </select></p>
+            <label for="cMen">Sua mensagem</label> 
+            <p><textarea name="tMen" id="cMen" cols="158" rows="5"></textarea></p>
+            <p><em>Seja o mais descritivo possível</em></p>
+            <p><input type="checkbox" name="tCheck" id="cCheck"> <label for="cCheck">Desejo receber SPAM pro resto da vida!!</label></p>
+            <input type="submit" value="Enviar">
+       </form>
+   </div>
+
+   <div class="divisor"></div>
+    <div id="rodape-personalizado">
+        <img src="imagens/pizzaria-hero-fundo02-1024x683.jpg" alt="fundo">
+        <h2>Ligue e faça a sua reserva</h2>
+        <p>3004-8660</p>
+    </div>
+    <footer>
+        <p>&copy; Fresco | Criado por <a href="https://www.instagram.com/matias_mpc" target="_black">Matheus Paixão</a></p>
+    </footer>
+</body>
+</html>

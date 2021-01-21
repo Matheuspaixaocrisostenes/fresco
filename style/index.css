@@ -1,0 +1,255 @@
+#img-princ{
+    width: 1342px;
+    height: 900px;
+    /* margin-left: -1px; */
+    margin-top: 45px;
+    /* margin-right: -1px; */
+    filter: brightness(64%);
+}
+
+
+#foto-legenda {
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 500px;
+    color: white;
+}
+
+#foto-legenda h1{
+    font-size: 80pt;
+    padding-bottom: none;
+    margin-bottom: none;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+#foto-legenda p{
+    font-size: 25pt;
+    margin-left: -80px;
+    margin-top: -20px;
+}
+
+#espe{
+    color: #ee7d0c;
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+
+#pizza{
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+#spec{
+    text-align: justify;
+    margin-top: 50px;
+
+}
+
+#spec h2{
+    color:  #ee7d0c;
+    font-size: 40pt;
+}
+
+#spec a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px 40px 15px 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#spec a:hover{
+    background-color:  #ff8000;
+}
+
+#time{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 30px;
+    color: white;
+}
+
+#time h2{
+    font-size: 40pt;
+}
+
+#rest{
+    margin-top: 50px;
+}
+
+#cardapio{
+    margin-top: 30px;
+    background-color: #faf2e4;
+}
+
+#cardapio h2{
+    text-align: center;
+    color: #aa5908;
+    font-size: 43pt;
+}
+
+#folha{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+#descri{
+    text-align: center;
+    font-size: 25pt;
+}
+
+
+#food img{
+    width: 250px;
+}
+
+#food p{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 270px;
+    font-size: 15pt;
+}
+
+#food span{
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 20px;
+    color: gray;
+}
+
+.price{
+    display: block;
+    margin-left: 10px;
+    position: absolute;
+    color: #aa5908;
+}
+
+#cardapio button{
+    border: none;
+    background-color: #ff8000;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+
+#happy{
+    text-align: center;
+}
+
+#happy h2{
+    color: #aa5908;
+    font-size: 40pt;
+}
+
+#descricao{
+    font-size: 20pt;
+}
+
+.foto{
+    position: relative;
+    border-radius: 150px;
+    margin-left: 200px;
+}
+
+#depoimentos h2{
+    color: #aa5908;
+    font-size: 30pt;
+    margin-left: 50px;
+}
+
+#depoimentos p{
+    text-align: center;
+}
+
+.nome{
+    color: gray;
+    font-size: 15pt;
+}
+
+#depoimentos span{
+    text-align: center;
+}
+
+#rodape-personalizado img{
+    filter: brightness(44%);
+    width: 1349px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+footer{
+    width: 1349px;
+}
+
+@media(max-width:700px){
+    body{
+        margin-right: none;
+    }
+    nav{
+        opacity: 0;
+    }
+
+    #img-princ{
+        margin-top: -130px;
+        width: 480px;
+        height: 550px;
+        margin: none;
+    }
+
+    #foto-legenda{
+        margin-left: 90px;
+        padding-top: 200px;
+    }
+
+    #note a{
+        margin-left: 70px;
+        margin-bottom: 40px;
+    }
+
+    #food img{
+        margin-bottom: 20px;
+    }
+
+    #cardapio button{
+        margin-left: -1px;
+        padding-left: 50px;
+        margin-right: 10px;
+    }
+
+    #folha{
+        margin-left: 150px;
+    }
+
+    footer{
+        width: 500px;
+    }
+
+    #rodape-personalizado img{
+        width: 500px;
+        height: 550px;
+        margin: none;
+    }
+    
+    #rodape-personalizado h2{
+        margin-left: 2px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    #rodape-personalizado p{
+        margin-left: 2px;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    #happy img{
+        width: 450px;
+    }
+}
