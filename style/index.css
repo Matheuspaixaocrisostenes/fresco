@@ -193,7 +193,14 @@ footer{
         margin-right: none;
     }
     nav{
-        opacity: 0;
+        margin-left: -10px;
+        margin-bottom: 150px;
+        /* position: absolute; */
+        margin-top: 10px;
+        font-size: 2pt;
+        line-height: 30px;
+        padding: 10px;
+        text-align: left;
     }
 
     #img-princ{
@@ -213,12 +220,30 @@ footer{
         margin-bottom: 40px;
     }
 
+    #food span{
+        font-size: 10pt;
+    }
+
     #food img{
         margin-bottom: 20px;
     }
 
+    #cardapio{
+        width: max-content;
+    }
+
+    #cardapio h2{
+        font-size: 30pt;
+        text-align: center;
+        margin-left: -90px;
+    }
+
+    #descri{
+        font-size: 15pt;
+    }
+
     #cardapio button{
-        margin-left: -1px;
+        margin-left: 60px;
         padding-left: 50px;
         margin-right: 10px;
     }
