@@ -1,0 +1,64 @@
+#inicial{
+    background-image: url('../imagens/pizzaria-hero-fundo03.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    text-align: left;
+    padding: 210px;
+    filter: brightness(40%);
+}
+
+#inicial h1{
+    font-size: 65pt;
+}
+
+#inicial p{
+    font-size: 45pt;
+}
+
+#inicial img{
+    width: 500px;
+}
+
+#form{
+    text-align: center;
+}
+
+#form Cname{
+    width: 500px;
+}
+
+footer{
+    background-color: rgb(78, 77, 77);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+}
+
+footer a{
+    color: #FF8000;
+}
+
+footer a:hover{
+    transition: .9s;
+    color: #be6003;
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+    #inicial h1{
+        font-size: 30pt;
+        text-align: left;
+    }
+
+    #inicial p{
+        font-size: 25pt;
+    }
+
+    #inicial img{
+        width: 200px;
+    }
+    #rodape{
+        padding-bottom: 420px;
+    }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresco-Culinária Italiana</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../components/styles/style.css">
+    <link rel="shortcut icon" href="../components/imagens/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../components/styles/contato.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../components/imagens/fresco-logo-pequeno.png" alt="Fresco"></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contato.html" id="contato">Contato</a></li>
+        </ul>
+    </header>
+
+
+    <div id="inicial" > 
+        <h1>Reserve uma messa</h1>
+        <p>3004-8660</p>
+        <img src="../components/imagens/barra-horizontal.png" alt="barra">
+    </div>
+
+    <div class="divisor"></div>
+
+    <div id="form">
+        <h2>Entre em Contato</h2>
+        <p>Envie sua mensagem, preenchendo o formulário abaixo</p>
+        <form>
+            <label for="Cname">Nome: </label><input type="text" name="tName" id="Cname" placeholder="Nome Completo">
+            <p><em>Informe seu nome completo, para podermos saber quem é você</em></p>
+            <p><label for="cEmail">E-mail: </label> <input type="email" name="tEmail" id="cEmail"> <label for="cTel">Telefone: </label> <input type="number" name="tTel" id="cTel"></p>
+            <p><label for="cUni"><strong>Qual a unidade que você quer falar</strong></label> 
+                <select name="tTel" id="cTel">
+                    <optgroup>
+                    <option value="0">escolha uma unidade</option>
+                    <option value="1">copacabana</option>
+                    <option value="2">lebon</option>
+                    <option value="3">bangu</option>
+                </optgroup>
+            </select>
+            </p>
+            <label for="cMen">Sua mensagem</label> 
+            <p><textarea name="tMen" id="cMen" cols="58" rows="5"></textarea></p>
+            <p><em>Seja o mais descritivo possível</em></p>
+            <p><input type="checkbox" name="tCheck" id="cCheck"> <label for="cCheck">Desejo receber SPAM pro resto da vida!!</label></p>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div class="divisor"></div>
+    <div id="rodape" class="container-fluid text-center bg-footer margin">
+        <h2>Ligue e faça a sua reserva</h2>
+        <p>3004-8660</p>
+    </div>
+    <footer>
+        <p>&copy; Fresco | Desenvolvido por <a href="https://www.instagram.com/matias_mpc" target="_blanck">Matheus Paixão</a></p>
+    </footer>
+</body>
+</html>

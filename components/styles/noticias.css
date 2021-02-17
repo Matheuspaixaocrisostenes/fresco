@@ -1,0 +1,50 @@
+#principal h1{
+    text-align: center;
+    font-size: 55pt;
+    margin-top: 30px;
+}
+
+#principal img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noticia{
+    border: black solid 2px;
+    padding: 10px;
+}
+
+.noticia:hover{
+    transition: 1s;
+    border: purple solid 5px;
+    transform: translateY(-2em)
+}
+
+footer{
+    background-color: rgb(78, 77, 77);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+}
+
+footer a{
+    color: #FF8000;
+}
+
+footer a:hover{
+    transition: .9s;
+    color: #be6003;
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+    #rodape{
+        padding-bottom: 420px;
+    }
+
+    .noticia{
+        margin-bottom: 100px;
+    }
+}
