@@ -1,194 +1,105 @@
-#inicial{
+#principal{
     background-image: url('../imagens/pizzaria-hero-fundo01.jpg');
     background-repeat: no-repeat;
-    color: white;
+    padding: 250px;
     text-align: center;
-    padding: 210px;
+    filter: brightness(60%);
+    color: white;
+    display: table;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-#inicial h1{
-    font-size: 75pt;
+#principal h1{
+    font-size: 90px;
+    filter: none;
 }
 
-#inicial p{
-    font-size: 25pt;
+#principal span{
+    color: #EE7D0C;
+    font-size: 20pt;
+    filter: none;
 }
 
-#spec{
-    color: rgb(255, 145, 0);
+#principal p{
+    font-size: 20pt;
+    filter: none;
 }
 
 #info h2{
     color: #EE7D0C;
-    font-size: 45pt;
+    font-size: 45px;
 }
 
-#info a{
-    color: white;
+#info button{
     background-color: black;
+    border-style: none;
     border-radius: 50px;
-    padding: 15px 40px 15px 40px;
+    padding: 10px 40px 10px 40px; 
 }
 
-#info a:hover{
-    transition: 2s;
-    background-color: #FF8000;
-    text-decoration: none;
+#info button, a{
+    color: white;
+    font-size: 20pt;
 }
 
 .horario{
+    margin-top: -120px;
     color: white;
-    margin-top: -190px;
-    margin-left: 40px;
-}
-
-.horario h3{
-    font-size: 35pt;
+    margin-left: 20px;
 }
 
 #cardapio{
     background-color: #FAF2E4;
-    padding: 50px;
-}
-
-#folha{
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-#cardapio h2,#descri{
+    width: 100%;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-#cardapio h2{
-    font-size: 35pt;
-    color: #be6003;;
 }
 
 #cardapio button{
-    border: none;
-    margin-top: 150px;
-    background-color: #FF8000;
+    border-style: none;
+    background-color: #ff8000;
+    padding: 20px;
     border-radius: 50px;
-    padding: 25px 25px 25px 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-#cardapio button:hover{
-    transition: 1s;
-    background-color: #be6003;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 #cardapio a{
-    text-decoration: none;
-    color: black;
-}
-#cardapio a:hover{
-    transition: 1s;
+    border-style: none;
+    background-color: #ff8000;
+    padding: 20px;
+    border-radius: 50px;
     color: white;
 }
 
-#food figcaption{
-    font-size: 15pt;
-    text-align: right;
-    margin-top: -190px;
-    align-items: center;
+#caradapio button a:hover{
+    background-color: #BE6003;
+    color: black;
 }
 
-#food span{
-    font-size: 12pt;
-}
-
-#food img{
-    margin-bottom: 40px;
-    margin-left: -220px;
-}
-
-#descricao-happy{
+#happy{
     text-align: center;
 }
 
-#descricao-happy h2{
+#happy h2{
+    color: #BE6003;
     font-size: 35pt;
-    color: #be6003;
 }
 
-#descricao-happy p{
-    font-size: 17pt;
+#happy strong{
+    font-size: 15pt;
 }
 
-.descricao-depoimento{
-    text-align: center;
-}
-
-.descricao-depoimento img{
-    border-radius: 90px;
+#depoimentos img{
+    border-radius: 50px;
 }
 
 .name{
-    font-size: 15pt;
     color: gray;
-}
-
-footer{
-    background-color: rgb(78, 77, 77);
-    padding: 10px;
-    color: white;
-    text-align: center;
     font-size: 15pt;
-}
-
-footer a{
-    color: #FF8000;
-}
-
-footer a:hover{
-    transition: .9s;
-    color: #be6003;
-    text-decoration: none;
-}
-
-@media(max-width:700px){
-    #inicial{
-        padding: none;
-        text-align: right;
-        margin-left: -10px;
-        margin: auto;
-    }
-
-    #inicial h1{
-        padding: none;
-        margin-left: -150px;
-        text-align: left;
-    }
-
-    #inicial p{
-        padding: none;
-        margin-left: -120px;
-        font-size: 15pt;
-    }
-
-    #inicial img{
-        margin-left: -120px;
-    }
-
-    #food img{
-        margin-bottom: 200px;
-    }
-
-    #food figcaption{
-        text-align: left;
-    }
-
-    #happy img{
-        width: 440px;
-    }
-
-    #rodape{
-        padding-bottom: 420px;
-    }
 }

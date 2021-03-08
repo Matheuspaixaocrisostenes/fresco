@@ -2,36 +2,41 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresco-Culinária Italiana</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../components/styles/style.css">
-    <link rel="shortcut icon" href="../components/imagens/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="../components/styles/contato.css">
+    <link rel="shortcut icon" href="../components/imagens/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../components/imagens/fresco-logo-pequeno.png" alt="Fresco"></a>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="cardapio.html">Cardápio</a></li>
-            <li><a href="quem-somos.html">Quem Somos</a></li>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="contato.html" id="contato">Contato</a></li>
-        </ul>
+        <nav>
+            <input type="checkbox" id="check">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+               <label for="check"><img src="../components/imagens/menu.png" alt="image-menu" id="img-menu"></label>
+            </label>
+            <label><a href="../index.html"><img src="../components/imagens/fresco-logo-pequeno.png" alt="fresco" class="logo"></a></label>
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="cardapio.html">cardápio</a></li>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="noticias.html">noticias</a></li>
+                <li><a href="contato.html" id="contact">contato</a></li>
+            </ul>
+        </nav>
     </header>
-
-
-    <div id="inicial" > 
+    <div id="principal" > 
         <h1>Reserve uma mesa</h1>
         <p>3004-8660</p>
         <img src="../components/imagens/barra-horizontal.png" alt="barra">
     </div>
-
     <div class="divisor"></div>
-
     <div id="form">
         <h2>Entre em Contato</h2>
         <p>Envie sua mensagem, preenchendo o formulário abaixo</p>
@@ -50,20 +55,27 @@
             </select>
             </p>
             <label for="cMen">Sua mensagem</label> 
-            <p><textarea name="tMen" id="cMen" cols="58" rows="5"></textarea></p>
+            <p><textarea name="tMen" id="cMen" cols="38" rows="5"></textarea></p>
             <p><em>Seja o mais descritivo possível</em></p>
             <p><input type="checkbox" name="tCheck" id="cCheck"> <label for="cCheck">Desejo receber SPAM pro resto da vida!!</label></p>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" onclick="click()" id="enviar">
         </form>
     </div>
-
     <div class="divisor"></div>
-    <div id="rodape" class="container-fluid text-center bg-footer margin">
+    <div id="rodape-personalizado">
         <h2>Ligue e faça a sua reserva</h2>
         <p>3004-8660</p>
     </div>
     <footer>
-        <p>&copy; Fresco | Desenvolvido por <a href="https://www.instagram.com/matias_mpc" target="_blanck">Matheus Paixão</a></p>
+        <p>&copy; Fresco | Desenvolvido por <a href="https://www.instagram.com/matias_mpc" target="_blank">Matheus Paixão</a></p>
     </footer>
+
+    <script>
+        function click(){
+            var a = document.getElementById('enviar')
+            window.alert(`sua Mensagem foi registrada, Logo entraremos em contato`)
+        }
+        
+    </script>
 </body>
 </html>

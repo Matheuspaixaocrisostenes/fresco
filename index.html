@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresco-Culinária Italiana</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,52 +14,57 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="components/imagens/fresco-logo-pequeno.png" alt="Fresco"></a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="src/cardapio.html">Cardápio</a></li>
-            <li><a href="src/quem-somos.html">Quem Somos</a></li>
-            <li><a href="src/noticias.html">Noticias</a></li>
-            <li><a href="src/contato.html" id="contato">Contato</a></li>
-        </ul>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+               <label for="check"><img src="components/imagens/menu.png" alt="image-menu" id="img-menu"></label>
+            </label>
+            <label><a href="index.html"><img src="components/imagens/fresco-logo-pequeno.png" alt="fresco" class="logo"></a></label>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="src/cardapio.html">cardápio</a></li>
+                <li><a href="src/quem-somos.html">Quem somos</a></li>
+                <li><a href="src/noticias.html">noticias</a></li>
+                <li><a href="src/contato.html" id="contact">contato</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div id="inicial" >
-        <img src="components/imagens/barra-horizontal.png" alt="barra">
-        <h1>Fresco</h1>
-        <p id="spec">ESPECIALIDADES ITALIANAS</p>
-        <p>Comida boa | Bom vinho</p>
-    </div>
-
+    
+    <section>
+       <div id="principal">
+           <img src="components/imagens/barra-horizontal.png" alt="barra">
+           <h1>Fresco</h1>
+           <span>ESPECIALIDADES ITALIANAS</span>
+           <p>Comida boa | Bom vinho</p>
+       </div>
+    </section>
     <div class="divisor"></div>
     <div id="info">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <span>O mais amado do bairro</span>
-                <h2>Bem-vindo</h2>
-                <p><strong>Reconhecido pela boa comida e bebida desde 1978.</strong></p>
-                <p>Premiada pelo instituto Curso em Vídeo de qualidade de culinária e oferecendo os melhores serviços. Premiada pelo instituto Curso em Vídeo de qualidade de culinária e oferecendo os melhores serviços.</p>
-                <a href="src/quem-somos.html">Saiba mais -></a>
-            </div>
-            <div class="col-lg-4">
-                <img src="components/imagens/pizza.jpg" alt="pizza" width="400px" height="400px">
-            </div>
-            <div class="col-lg-4">
-                <img src="components/imagens/restaurante02.jpg" alt="restaurante">
-                <figcaption class="horario">
-                    <h3>Horário</h3>
-                    <p>Todos os dias, de 9h até 23h</p>
-                </figcaption>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <span>O mais amado do bairro</span>
+                    <h2>Bem-vindo</h2>
+                    <p><strong>Reconhecido pela boa comida e bebida desde 1978.</strong></p>
+                    <p>Premiada pelo instituto Curso em Vídeo de qualidade de culinária e oferecendo os melhores serviços. Premiada pelo instituto Curso em Vídeo de qualidade de culinária e oferecendo os melhores serviços.</p>
+                    <button><a href="src/quem-somos.html">Saiba -></a></button>
+                </div>
+                <div class="col-lg-4">
+                   <img src="components/imagens/pizza.jpg" alt="pizza" width="300px">
+                </div>
+                <div class="col-lg-4">
+                    <img src="components/imagens/restaurante02.jpg" alt="restaurante" height="500px">
+                    <figcaption class="horario">
+                        <h3>Horário</h3>
+                        <p>Todos os dias, de 9h até 23h</p>
+                    </figcaption>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="divisor"></div>
-<div class="divisor"></div>
-
-    <div id="cardapio" class="container-fluid text-center"> 
+    <div class="divisor"></div>
+    <div id="cardapio"> 
+        <div class="divisor"></div>
         <img src="components/imagens/folha-fundo-01.png" alt="folha" id="folha">
         <h2>Nosso Cardápio</h2>
         <p id="descri"><strong> Ingredientes de qualidade, pratos saborosos</strong></p>
@@ -71,9 +77,6 @@
                             <p> Peixe à Hostnet</p>
                             <span>Acompanha salada e legumes</span>
                     </figcaption>
-                    
-                    
-                    <!-- <span class="price">R$35</span> -->
                 </div>
                 <div class="col-lg-6">
                     <img src="components/imagens/prato01-300x255.jpg" alt="macarao">
@@ -81,7 +84,6 @@
                             <p>Fettuccine Curso</p>
                             <span>Molho de carne moída</span>
                         </figcaption>
-                    <!-- <p class="price">R$29</p> -->
                 </div>
             </div>
         </div>
@@ -94,8 +96,6 @@
                         <p>Spaghetti Ramiro</p>
                         <span>Molho alho e óleo e outra folha</span>
                     </figcaption>
-                   
-                    <!-- <p class="price">R$25</p> -->
                 </div>
                 <div class="col-lg-6">
                     <img src="components/imagens/prato03-300x255.jpg" alt="pizza">
@@ -103,37 +103,31 @@
                          <p>Pizza Guanabara</p>
                         <span>Um pouco de tudo (e mais)</span>
                     </figcaption>
-                   
-                    <!-- <p class="price">R$32</p> -->
                 </div>
             </div>
         </div>
     </div>
-        <button><a href="cardapio.html">CARDÁPIO COMPLETO</a></button>
+        <button><a href="src/cardapio.html">CARDÁPIO COMPLETO</a></button>
+        <div class="divisor"></div>
 </div>
-
-<div class="divisor"></div>
-
-<div id="happy">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="components/imagens/restaurante01-768x578.jpg" alt="restaurante" width="500px">
+    <div class="divisor"></div>
+    <div id="happy">
+        <div class="container">
+            <div class="row">
+                 <div class="col-lg-6">
+                <img src="components/imagens/restaurante01-300x226.jpg" alt="restaurante" width="450px">
             </div>
-            <div class="col-lg-6">
-                <div id="descricao-happy">
-                    <span>Toda quarta-feira</span>
-                    <h2>Happy Hour!</h2>
-                    <p><strong>Metade do preço nas garrafas de vinho e seis deliciosos lanches por R$9</strong></p>
-                </div>
-                
+             <div class="col-lg-6">
+                <span>Toda quarta-feira</span>
+                <h2>Happy Hour!</h2>
+                <p><strong>Metade do preço nas garrafas de vinho e seis deliciosos lanches por R$9</strong></p>
             </div>
         </div>
     </div>
 </div>
 <hr>
-
-<div id="depoimentos" class="container-fluid text-center bg-footer margin">
+       <div class="divisor"></div>
+       <div id="depoimentos" class="container-fluid text-center bg-footer margin">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -176,14 +170,12 @@
     </div>
 </div>
 
-<div class="divisor"></div>
-<div id="rodape" class="container-fluid text-center bg-footer margin">
+<div id="rodape-personalizado">
     <h2>Ligue e faça a sua reserva</h2>
     <p>3004-8660</p>
 </div>
-
 <footer>
-    <p>&copy; Fresco | Desenvolvido por <a href="https://www.instagram.com/matias_mpc" target="_blanck">Matheus Paixão</a></p>
+    <p>&copy; Fresco | Desenvolvido por <a href="https://www.instagram.com/matias_mpc" target="_blank">Matheus Paixão</a></p>
 </footer>
 </body>
 </html>

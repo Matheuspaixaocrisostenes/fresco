@@ -1,50 +1,20 @@
-#principal h1{
+#principal{
     text-align: center;
-    font-size: 55pt;
-    margin-top: 30px;
+    align-items: center;
 }
 
-#principal img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#principal h1{
+    font-size: 55pt;
 }
 
 .noticia{
-    border: black solid 2px;
+    background: linear-gradient(gray, purple);
     padding: 10px;
+    cursor: pointer;
 }
 
 .noticia:hover{
     transition: 1s;
-    border: purple solid 5px;
-    transform: translateY(-2em)
-}
+    transform: rotate(1turn);
 
-footer{
-    background-color: rgb(78, 77, 77);
-    padding: 10px;
-    color: white;
-    text-align: center;
-    font-size: 15pt;
-}
-
-footer a{
-    color: #FF8000;
-}
-
-footer a:hover{
-    transition: .9s;
-    color: #be6003;
-    text-decoration: none;
-}
-
-@media(max-width:700px){
-    #rodape{
-        padding-bottom: 420px;
-    }
-
-    .noticia{
-        margin-bottom: 100px;
-    }
 }

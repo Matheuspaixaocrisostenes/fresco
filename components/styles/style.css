@@ -1,6 +1,9 @@
 *{
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 .divisor{
@@ -16,83 +19,174 @@ p,a{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-ul{
-    list-style: none;
-    margin-left: 730px;
-    margin-top: -20px;
-}
-
-li{
-    display: inline;
-    padding: 5px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 17pt;
-}
-
-header a:hover{
-    color: #EE7D0C;
-    text-decoration: none;
-}
-
-#contato{
-    background-color: #ff8000;
-    padding: 8px;
+#contact{
     color: white;
-    border-radius: 20px;
-}
-
-#contato:hover{
     background-color: #EE7D0C;
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
 }
 
-#rodape{
-    color: white;
-    background-image: url('../imagens/pizzaria-hero-fundo02.png');
+#contact:hover{
+    background-color: #b86511;
+}
+
+#rodape-personalizado{
+    background-image: url("../imagens/pizzaria-hero-fundo02.png");
     background-repeat: no-repeat;
+    padding: 250px;
     text-align: center;
-    align-items: center;
-    filter: brightness(50%);
-    background-size: 1549px;
-    height: 500px;
-    padding-top: 290px;
+    filter: brightness(60%);
+    color: white;
+    display: table;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-#rodape h2{
-    font-size: 50pt;
+#rodape-personalizado h2{
+    font-size: 45pt;
 }
 
-#rodape p{
-    font-size: 40pt;
+#rodape-personalizado p{
+    font-size: 35pt;
 }
 
-@media(max-width:700px){
-    ul{
-        margin-left: -10px;
-        margin-top: 10px;      
+footer{
+    background-color: #4E4D4D;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 15pt;
+}
+
+footer a{
+    text-decoration: none;
+    color: #EE7D0C;
+}
+
+footer a:hover{
+    color: #b86511;
+    background-color: #4E4D4D;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    position: -webkit-sticky;
+    position: static;
+    top: 0;
+}
+
+.logo{
+    padding: 0px 60px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+nav{
+    background:white;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #EE7D0C;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #EE7D0C;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#img-menu{
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width: 952px){
+    .logo{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:858px){
+    .checkbtn{
+        display: block;
     }
 
-    li{
-        margin-top: 10px;
-        padding: 5px;
-        display: table-row;
-        margin-bottom: 40px;
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #fb9835;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
         line-height: 30px;
     }
-}
 
-@media(min-width:700px){
-    ul{
-        margin-left: -5px;
-        margin-top: 25px;
+    nav ul li a{
+        font-size: 20px;
+        color: white;
     }
-}
 
-@media(min-width:1024){
-    ul{
-        text-align: center;
+    a:hover{
+        background: #EE7D0C;
+        color: #000000;
+        transition: .5s;
     }
+
+    #check:checked ~ ul{
+        left: 0;
+        transition: 1.5s;
+        z-index: 1;
+    }
+    
 }
