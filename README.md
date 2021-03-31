@@ -5,3 +5,6 @@
 - HTML5 
 - CSS 3
 - BOOTSTRAP
+
+# Para acessar o site:
+- (https://matheuspaixaocrisostenes.github.io/fresco/)
