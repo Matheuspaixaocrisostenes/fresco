@@ -38,6 +38,7 @@
     </div>
     <div class="divisor"></div>
     <div id="form">
+        <div id="escondida">ak</div>
         <h2>Entre em Contato</h2>
         <p>Envie sua mensagem, preenchendo o formulário abaixo</p>
         <form>
@@ -58,8 +59,8 @@
             <p><textarea name="tMen" id="cMen" cols="38" rows="5"></textarea></p>
             <p><em>Seja o mais descritivo possível</em></p>
             <p><input type="checkbox" name="tCheck" id="cCheck"> <label for="cCheck">Desejo receber SPAM pro resto da vida!!</label></p>
-            <input type="submit" value="Enviar" onclick="click()" id="enviar">
         </form>
+        <button onclick="enviar()">Enviar</button>
     </div>
     <div class="divisor"></div>
     <div id="rodape-personalizado">
@@ -69,13 +70,7 @@
     <footer>
         <p>&copy; Fresco | Desenvolvido por <a href="https://www.instagram.com/matias_mpc" target="_blank">Matheus Paixão</a></p>
     </footer>
-
-    <script>
-        function click(){
-            var a = document.getElementById('enviar')
-            window.alert(`sua Mensagem foi registrada, Logo entraremos em contato`)
-        }
-        
-    </script>
+    
+    <script src="../components/scripts/script.js"></script>
 </body>
 </html>

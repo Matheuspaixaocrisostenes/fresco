@@ -1,6 +1,7 @@
 #principal{
     background-image: url("../imagens/destaque-cardapio.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 250px;
     text-align: left;
     filter: brightness(50%);

@@ -1,6 +1,7 @@
 #principal{
     background-image: url("../imagens/pizzaria-hero-fundo03.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 250px;
     text-align: left;
     filter: brightness(60%);
@@ -12,6 +13,19 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#escondida{
+    background-color: #ff9a34;
+    width: 650px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 150px;
+    color: white;
+    font-size: 45px;
+    border-radius: 50px;
+    display: none;
 }
 
 #principal h1{
