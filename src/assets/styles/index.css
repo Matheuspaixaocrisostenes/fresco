@@ -1,0 +1,30 @@
+#initial{
+    background-image: url('../imagens/pizzaria-hero-fundo01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 90vh;
+    width: 100%;
+    color: white;
+    filter: brightness(80%);
+}
+
+#initial h1{
+    font-size: 70pt;
+    font-weight: normal;
+    padding: 10px;
+}
+
+#initial p{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.destaque{
+    color: #EE7D0C;
+}
