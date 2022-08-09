@@ -62,3 +62,22 @@
 .col p{
     line-height: 2em;
 }
+
+#list{
+    background-color: #FAF2E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    text-align: center;
+}
+
+#list .col{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
