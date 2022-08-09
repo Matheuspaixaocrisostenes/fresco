@@ -28,3 +28,37 @@
 .destaque{
     color: #EE7D0C;
 }
+
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.col{
+    display: flex;
+    padding: 100px;
+}
+
+.col img{
+    width: 350px;
+    padding: 50px;
+}
+
+.col h2{
+    color: #EE7D0C;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.col strong{
+    line-height: 2em;
+}
+
+.col p{
+    line-height: 2em;
+}
