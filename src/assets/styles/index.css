@@ -69,15 +69,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#list{
     text-align: center;
+    padding-top: 100px;
 }
 
-#list .col{
-    padding-top: 0px;
-    padding-bottom: 0px;
+#list .row{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#list .row > div{
+    padding: 30px 100px;
+}
+
+#list .row > div > p{
+    padding-bottom: 20px;
 }
