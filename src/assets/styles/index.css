@@ -86,3 +86,42 @@
 #list .row > div > p{
     padding-bottom: 20px;
 }
+
+#list a{
+    background-color: #FF8000;
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 30px;
+}
+
+#list a:hover{
+    background-color: #c0650a;
+}
+
+@media(max-width: 650px){
+    .col{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .row{
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    #list .row > div{
+        padding: 10px 0px;
+    }
+
+    #list p{
+        padding-bottom: 10px;
+    }
+
+    #list a{
+        font-size: 1em;
+        margin-top: 10px;
+    }
+}
