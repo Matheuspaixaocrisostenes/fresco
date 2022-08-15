@@ -98,10 +98,69 @@
     font-size: 2em;
     border-radius: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #list a:hover{
     background-color: #c0650a;
+}
+
+#happy{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#happy img{
+    width: 60%;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#happy h2{
+    font-size: 3em;
+    font-weight: normal;
+    color: #c0650a;
+}
+
+#happy p{
+    font-size: 1.2em;
+}
+
+.col-img{
+    display: flex;
+    text-align: center;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.col-img div{
+    padding: 50px;
+}
+
+#phrases{
+    display: flex;
+}
+
+.card{
+    text-align: center;
+    padding: 50px;
+    line-height: 1.5em;
+}
+
+.card img{
+    border-radius: 100%;
+}
+
+.name{
+    color: gray;
+    line-height: 2em;
+    font-size: 1.2em;
 }
 
 @media(max-width: 650px){
