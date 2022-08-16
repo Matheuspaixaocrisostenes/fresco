@@ -239,4 +239,30 @@ footer a:hover{
         font-size: 1em;
         margin-top: 10px;
     }
+
+    #happy{
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    .col-img{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .col-img img{
+        width: 80%;
+    }
+
+    #phrases{
+        flex-direction: column;
+    }
+
+    .footer-custom{
+        font-size: 1.2em;
+    }
+    
+    footer a:hover{
+        background-color: #4E4D4D;
+    }
 }
