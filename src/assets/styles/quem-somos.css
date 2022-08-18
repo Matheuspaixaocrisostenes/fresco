@@ -52,3 +52,19 @@ strong{
 #recommendation{
     text-align: center;
 }
+
+@media(max-width: 650px){
+    .col{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .border{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    strong{
+        line-height: 2em;
+    }
+}
