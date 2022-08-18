@@ -1,0 +1,83 @@
+#initial{
+    background-image: url('../imagens/pizzaria-hero-fundo03.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 2em;
+    padding: 50px;
+    height: 90vh;
+    filter: brightness(70%);
+}
+
+#initial p{
+    text-indent: 1.5em;
+}
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 50px;
+    line-height: 2em;
+}
+
+#cont h2{
+    font-weight: normal;
+    font-size: 3.5em;
+    padding-bottom: 20px;
+}
+
+#cont h2::after{
+    content: '';
+    display: block;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 30px;
+}
+
+#cont label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],input[type="email"],input[type="number"], textarea,select{
+    width: 80vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid rgba(128, 128, 128, 0.442);
+}
+
+iframe{
+    width: 100%;
+}
+
+@media(max-width: 650px){
+    #initial h1{
+        font-size: 1.5em;
+    }
+
+    #initial img{
+        width: 75%;
+    }
+
+    #initial p{
+        text-indent: -.1em;
+    }
+
+    #cont{
+        padding: 20px;
+    }
+
+    #cont h2{
+        font-size: 2em;
+    }
+}
