@@ -1,0 +1,54 @@
+#initial{
+    background-image: url('../imagens/bg-quem-somos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.col div{
+    padding: 0px 20px;
+}
+
+.col p{
+    line-height: 2em;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.border{
+    width: 40vw;
+    border-radius: 50px;
+}
+
+#amenities p{
+    font-size: 1em;
+    text-align: center;
+}
+
+strong{
+    font-size: 1.2em;
+}
+
+#amenities i{
+    color: #EE7D0C;
+}
+
+#recommendation{
+    text-align: center;
+}
