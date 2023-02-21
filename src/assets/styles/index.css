@@ -82,11 +82,37 @@
 }
 
 #list a{
-    background-color: #EE7D0C;
+    background-color: #FF8000;
     color: white;
     padding: 10px;
     font-size: 2em;
     border-radius: 30px;
+}
+
+#happy{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#happy img{
+    width: 60%;
+}
+
+#happy span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#happy h2{
+    color: #c0650a;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#happy p{
+    font-size: 1.2em;
 }
 
 @media screen and (max-width: 1160px) {
@@ -139,6 +165,10 @@
     #happy{
         flex-direction: column;
         font-size: 1em;
+    }
+
+    #happy > div{
+        margin-top: 15px;
     }
 
     .col-img{
