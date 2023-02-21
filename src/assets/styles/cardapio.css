@@ -1,7 +1,7 @@
 #initial {
     background-image: url('../imagens/destaque-cardapio.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     color: white;
     display: flex;
@@ -68,6 +68,20 @@
     }
 
     .col img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .col{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    nav{
         width: 100%;
     }
 }
