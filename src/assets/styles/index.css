@@ -64,103 +64,29 @@
 }
 
 #list{
-    background-color: #FAF2E4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding-top: 100px;
+    background-color: #FAF2E4;
+    padding: 50px;
 }
 
 #list .row{
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-#list .row > div{
-    padding: 30px 100px;
-}
-
-#list .row > div > p{
-    padding-bottom: 20px;
-}
-
-#list span{
-    font-family: Arial, Helvetica, sans-serif;
+#list .row p{
+    line-height: 2em;
 }
 
 #list a{
-    background-color: #FF8000;
+    background-color: #EE7D0C;
     color: white;
-    padding: 20px;
+    padding: 10px;
     font-size: 2em;
     border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#list a:hover{
-    background-color: #c0650a;
-}
-
-#happy{
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: space-around;
-    text-align: center;
-
-}
-
-#happy img{
-    width: 60%;
-}
-
-span{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#happy h2{
-    font-size: 3em;
-    font-weight: normal;
-    color: #c0650a;
-}
-
-#happy p{
-    font-size: 1.2em;
-}
-
-.col-img{
-    display: flex;
-    text-align: center;
-    padding: 100px;
-    justify-content: space-around;
-}
-
-.col-img div{
-    padding: 50px;
-}
-
-#phrases{
-    display: flex;
-}
-
-.card{
-    text-align: center;
-    padding: 50px;
-    line-height: 1.5em;
-}
-
-.card img{
-    border-radius: 100%;
-}
-
-.name{
-    color: gray;
-    line-height: 2em;
-    font-size: 1.2em;
 }
 
 @media screen and (max-width: 1160px) {
@@ -175,7 +101,7 @@ span{
     }
 }
 
-@media(max-width: 650px){
+@media(max-width: 768px){
     .col{
         flex-direction: column;
         padding: 10px;
@@ -203,10 +129,6 @@ span{
 
     #list p{
         padding-bottom: 10px;
-    }
-
-    .row img{
-        width: 70%;
     }
 
     #list a{
