@@ -15,7 +15,7 @@
     filter: brightness(60%);
 }
 
-.col{
+.col, .col-amenities{
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -54,7 +54,7 @@ strong{
 }
 
 @media(max-width: 650px){
-    .col{
+    .col, .col-amenities{
         flex-direction: column;
         padding: 10px;
     }
@@ -66,5 +66,12 @@ strong{
 
     strong{
         line-height: 2em;
+    }
+}
+
+@media screen and (max-width: 1123px){
+    .col{
+        flex-direction: column;
+        align-items: center;
     }
 }
