@@ -115,6 +115,40 @@
     font-size: 1.2em;
 }
 
+.col-img{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px;
+}
+
+.col-img div{
+    padding: 50px;
+}
+
+.col-img p{
+    line-height: 1.5em;
+}
+
+.card img{
+    border-radius: 100%;
+}
+
+.card .name{
+    color: gray;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+#phrases{
+    display: flex;
+    text-align: center;
+}
+
+#phrases .card{
+    padding: 50px;
+}
+
 @media screen and (max-width: 1160px) {
     .col{
         flex-direction: column; 
@@ -176,8 +210,8 @@
         padding: 10px 0px;
     }
 
-    .col-img img{
-        width: 80%;
+    .col-img img:nth-child(2){
+        width: 100%;
     }
 
     #phrases{
